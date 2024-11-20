@@ -1,0 +1,6 @@
+PROJECT_NAME = Automation Framework Selenium | Anh Tester
+REPORT_TITLE = Report | Automation Framework Selenium | Anh Tester
+EXTENT_REPORT_NAME = ExtentReports
+EXTENT_REPORT_FOLDER = reports/ExtentReports
+EXPORT_VIDEO_PATH = ExportData/Videos
+EXPORT_CAPTURE_PATH = ExportData/Images

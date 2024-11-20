@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Using Suite Level Paramters">
+ <parameter name="browser" value="chrome"></parameter>
+   <parameter name="environment" value="production"></parameter>
+ 
+<test name="using test level parameters"> 
+       
+  <parameter name="username" value="testuser"></parameter>
+   <parameter name="password" value="admin123"></parameter>
+    <classes>
+      <class name="AllTestNGPack.suiteParameterExample"/>
+
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
